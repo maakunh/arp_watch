@@ -1,0 +1,25 @@
+[03-Oct-2017 07:07:46 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/s in /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[03-Oct-2017 07:09:08 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/s in /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[03-Oct-2017 07:09:12 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/s in /home/ubuntu/workspace/arp_watch/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[04-Oct-2017 06:03:00 UTC] PHP Fatal error:  Label 'Route' already defined in /home/ubuntu/workspace/arp_watch/routes/web.php on line 29
